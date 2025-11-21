@@ -1,5 +1,6 @@
 # Christmas Tree on Terminal
-Display animated ASCII Christmas Tree directly on your terminal!
+Display animated ASCII Christmas Tree directly on your terminal! <br>
+
 (Warning! It is designed for a very large terminal size. The recommended terminal dimensions are width 500 and height 200, so you may need to resize or zoom out your terminal to display everything properly.)
 
 ![Demo GIF](demo.gif)
