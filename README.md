@@ -43,16 +43,15 @@ thanks for [ASCII Art Archieve](https://www.asciiart.eu/)<br>
 -STAR_TOPPER<br>
 -RIBBONS<br>
 -BABLES ...<br>
-asset.py에서 나머지 asset을 찾을 수 있어요.<br>
-어떤 asset들은 list 형태의 layer로 표현되어있어요.
+You can find all additional assets inside [asset.py](asset.py).<br>
+Some assets are organized as layered lists to allow different colors to be applied to each layer.
 
 ## Blink System
 ### Blink Option
-`permanet` color always applied!<br>
-`random` color에 들어가는 색상 list 중 랜덤하게 선택해요.<br>
-`twinkle` color에 들어가는 색상 list를 iterate하면서 toggle해요.<br>
+`permanet` — color always applied!<br>
+`random` — randomly selects a color from the provided color list at each blink cycle.<br>
+`twinkle`— toggles visibility while iterating through the color list in sequence.<br>
 ### Interval
-`blink_rate` 몇 단위마다 blink를 수행할지 정해요 (fps와 단위 같음)<br>
-`blink_init_rate` 몇 단위 이후에 blink를 시작할지 정해요. (fps와 단위 같음)<br>
-`reverse=True` 처음에 '꺼짐' 상태로 시작해요.<br>
-
+`blink_rate` — determines how frequently the blink occurs (in the same unit as FPS).<br>
+`blink_rate_init` — initial delay before blinking starts (also in FPS units).<br>
+`reverse=True`— starts the asset in the “off” state instead of “on”.<br>
